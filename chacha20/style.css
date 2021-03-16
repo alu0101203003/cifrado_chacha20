@@ -1,0 +1,151 @@
+body{
+    background-color:black;
+    background-image: url(src/bg.png);
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: 'Red Rose';
+    font-size: 25px;
+    color: #868825;
+}
+
+
+.b1{
+
+    position: relative;
+    background: none;
+    /*color: #fff;*/
+    background-color: #474747;
+    padding: 5px 150px;
+    border: 5px solid rgba(33, 18, 18, .5);
+    border-radius: 15px;
+    left: 200px;
+    top: 240px;
+    opacity: 1;
+}
+
+#clave {
+    width: 631px;
+    background-color: #b0b32b;
+}
+#contador {
+    width: 79px;
+    background-color: #b0b32b;
+}
+#nonce {
+    width: 243px;
+    background-color: #b0b32b;
+}
+.datos{
+    width: 650px;
+    position: relative;
+    background: none;
+    /*color: #fff;*/
+    background-color: #2e2e2e;
+    padding: 5px 50px;
+    border: 5px solid rgba(33, 18, 18, .5);;
+    border-radius: 15px;
+    left: 20px;
+    top: 320px;
+    opacity: 1;
+}
+
+h4 {
+    font-family: 'Red Rose';
+    color: #b0b32b;
+}
+input {
+    font-family: 'Red Rose';
+    color: #ffffff;
+    font-size: 15px;
+    padding: 7px 22px;
+    border: 5px solid #b0b32b;
+    border-radius: 5px;
+}
+
+h3 {
+    font-family: 'Red Rose';
+    color: #474747;
+    font-size: 22px;
+    position: relative;
+    left: 360px;
+    top: 120px;
+}
+
+h5 {
+    font-family: 'Red Rose';
+    color: #ffffff;
+    font-size: 15px;
+    background-color: #b0b32b;
+    padding: 25px 20px;
+    position: relative;
+    left: -40px;
+    width: 320px;
+    border: 5px solid #b0b32b;
+    border-radius: 5px;
+}
+.estados{
+    display: none;
+    height: 650px;
+    width: 300px;
+    position: relative;
+    background: none;
+    /*color: #fff;*/
+    background-color: #2e2e2e;
+    padding: 5px 50px;
+    border: 5px solid rgba(33, 18, 18, .5);
+    border-radius: 15px;
+    left: 870px;
+    top: -353px;
+    opacity: 1;
+}
+
+
+.btn :hover{
+    opacity: 1;
+    background-color: #000000;
+}
+
+
+
+#padlock-abierto {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 800px;
+    top: 180px;
+    display: none;
+}
+
+#padlock-cerrado {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 800px;
+    bottom: 218px;
+    display: none;
+}
+
+
+/*
+.prueba {
+    width: 100px;
+    height: 100px;
+    background-color: #686868;
+    border: 5px solid rgba(33, 18, 18, .5);;
+    border-radius: 15px;
+    position: relative;
+    left: 1000px;
+    top: 150px;
+    animation-name: desaparecer;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+
+@keyframes desaparecer {
+    0%   {opacity: 1;}
+    100%  {opacity: 0;}
+  }
+  /*

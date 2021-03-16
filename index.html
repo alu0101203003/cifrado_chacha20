@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Encriptador chacha20</title>
+  <link rel="stylesheet" href="chacha20/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Red Rose' rel='stylesheet'>
+</head>
+
+<body>
+  <script src='chacha20/chacha20.js'></script>
+  <div class="btn">
+      <button id="b1" class="b1" type="button" onclick="generar()">
+        <p>GENERAR</p>
+      </button>
+  </div>
+
+  <div class="aviso">
+    <h3>¡Doble  click!</h3>
+  </div>
+
+  <div class="datos">
+    <form>
+      <p>
+      Clave (8 palabras):
+      <br>
+      <input id="clave" type="text"/>
+      <br>
+      Contador (1 palabra): 
+      <br>
+      <input id="contador" type="text"/>
+      <br>
+      Nonce (3 palabras): 
+      <br>
+      <input id="nonce" type="text"/>
+      <br>
+      <br>
+      </p>
+    </form>
+  </div>
+
+  <div id="estados" class="estados">
+      <h4> 
+      Estado inicial:
+      </h4>
+      <h5 id="EstadoInicial"></h5>
+      <h4>
+      Estado final tras las 20 iteraciones:
+      </h4>
+      <h5 id="Estado20"></h5>
+      <h4>
+      Estado de salida del generador:
+      </h4>
+      <h5 id="EstadoSalida"></h5>
+      <br>
+    </form>
+  </div>
+
+
+</body>
+
+
+</html>
